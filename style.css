@@ -575,18 +575,24 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     
 }
 .profiles-detail{
-    padding-left: 15rem;
+    /* padding-left: 15rem; */
     margin: 1rem;
     /* padding: 2rem;  */
     /* border-radius: 5px;
      box-shadow:0 3px 5px rgba(0, 0, 0, 0.2);  */
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .profiles-detail h3{
     font-family: var(--ff-welcome);
     font-size: 1.5rem;
     text-transform: capitalize;
     margin-bottom: 1rem;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
 }
 .profiles-detail p{
     margin: 1rem 0;
@@ -685,7 +691,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     
 }
 .clients-detail{
-    padding-left: 11rem;
+    /* padding-left: 11rem; */
    
     margin: 1rem;
     /* padding: 2rem;  */
@@ -694,8 +700,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .client-img{
     
-    padding-left:  1rem;
-    padding-bottom: 1rem;
+    /* padding-left:  1rem; */
+    /* padding-bottom: 1rem; */
     max-width: 20rem;
     
 }
@@ -704,7 +710,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     font-size: 1.5rem;
     text-transform: capitalize;
     margin-bottom: 1rem;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
 }
 .clients-detail p{
     margin: 1rem 0;
@@ -730,6 +736,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     .clients-detail{
         /* margin:  3rem; */
         padding-left: 40rem;
+    }
+    .clients-detail h3{
+        padding-left:  1rem;
     }
 }
 
